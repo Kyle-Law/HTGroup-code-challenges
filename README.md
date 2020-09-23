@@ -1,13 +1,13 @@
 # HTGroup Coding Challenges
 
-> Coding Challenges of HT Group
+> Coding Challenges by HT Group
 
 ## Efficiency
 
-|             | Time     | Space | Code |
-| ----------- | -------- | ----- | ---- |
-| Challenge 1 | O(n!)    | O(n)  |
-| Challenge 2 | O(c x r) | O(r)  |
+|                                | Time     | Space |
+| ------------------------------ | -------- | ----- |
+| Challenge 1 - Crispy Dollop    | O(n!)    | O(n)  |
+| Challenge 2 - Scaling Umbrella | O(c x r) | O(r)  |
 
 - c is number of columns, r is number of rows
 
@@ -20,17 +20,19 @@
 
 ### Idea 1 - Brute Force method
 
-Example, Input = 123
+`For example, Input = 123`
 
 1. Get an array of each element ([1,2,3])
-2. Find all Permutations ([321,123,132,213,231,312])
-3. Sort the permutations ([123,132,213,231,312,321])
+2. Find all Permutations `([321,123,132,213,231,312])`
+3. Sort the permutations `([123,132,213,231,312,321])`
 4. Return Integer next to the input or -1 if not found
 
-#### Efficiency
+#### Big O Efficiency
 
 BigO of finding all permutation is n!, whereas BigO of sorting is O(nlogn), resulted in a O(n!) time efficiency.
+<br/>
 Time: O(n!)
+<br/>
 Space: O(1)
 
 ### Idea 2 - Pointer Method
@@ -44,7 +46,11 @@ Space: O(1)
 
 ### Other thoughts:
 
-1. Using Stack and Queue,
+1. Using Stack and Queue...
+
+#### Code
+
+Checkout the code [HERE](challenge1.rb)
 
 ## Challenge 2 - Scaling Umbrella
 
@@ -60,19 +66,23 @@ Space: O(1)
 - Pass the new matrix into the function
 - Base case: return nothing if the new matrix is empty
 
-#### Efficiency:
+#### Big O Efficiency:
+
+It iterates through every element once, hence the time complexity is the number of element, which is r x c
 
 Time:O(r x c) where r is number of rows, c is number of columns
+<br/>
 Space: O(r)
 
 #### Code
+
+Checkout the code [HERE](challenge2.rb)
 
 ## Authors
 
 👤 **Kyle Law**
 
 - Github: [@Kyle-Law](https://github.com/Kyle-Law)
-- Twitter: [@Kyle-Law](https://twitter.com/ZhunKhing)
 - Linkedin: [Kyle law](https://www.linkedin.com/in/kyle-lawzhunkhing/)
 
 ## Acknowledgments
