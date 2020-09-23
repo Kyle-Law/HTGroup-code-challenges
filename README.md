@@ -2,14 +2,14 @@
 
 > Coding Challenges of HT Group
 
-![image](https://user-images.githubusercontent.com/55923773/89916161-e1e6f180-dc29-11ea-8d10-ff56f5d6b9c8.png)
-
 ## Efficiency
 
-|             | Time | Space | Code |
-| ----------- | ---- | ----- | ---- |
-| Challenge 1 |      |       |
-| Challenge 2 |      |       |
+|             | Time     | Space | Code |
+| ----------- | -------- | ----- | ---- |
+| Challenge 1 | O(n!)    | O(n)  |
+| Challenge 2 | O(c x r) | O(r)  |
+
+- c is number of columns, r is number of rows
 
 ## Challenge 1 - Crispy Dollop
 
